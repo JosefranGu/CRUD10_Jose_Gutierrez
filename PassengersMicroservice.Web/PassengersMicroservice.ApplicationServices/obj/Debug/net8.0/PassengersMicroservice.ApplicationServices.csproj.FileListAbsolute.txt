@@ -1,0 +1,16 @@
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\bin\Debug\net8.0\PassengersMicroservice.ApplicationServices.deps.json
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\bin\Debug\net8.0\PassengersMicroservice.ApplicationServices.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\bin\Debug\net8.0\PassengersMicroservice.ApplicationServices.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\bin\Debug\net8.0\PassengersMicroservice.Core.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\bin\Debug\net8.0\PassengersMicroservice.Core.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\PassengersMicroservice.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\PassengersMicroservice.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\PassengersMicroservice.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\PassengersMicroservice.ApplicationServices.AssemblyInfo.cs
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\PassengersMicroservice.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\PassengersMicroservice.ApplicationServices.sourcelink.json
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\PassengersMicroservice.ApplicationServices.csproj.CopyComplete
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\PassengersMicroservice.ApplicationServices.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\refint\PassengersMicroservice.ApplicationServices.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\PassengersMicroservice.ApplicationServices.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.ApplicationServices\obj\Debug\net8.0\ref\PassengersMicroservice.ApplicationServices.dll

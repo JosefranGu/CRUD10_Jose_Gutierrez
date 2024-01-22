@@ -1,0 +1,12 @@
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\bin\Debug\net8.0\PassengersMicroservice.Core.deps.json
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\bin\Debug\net8.0\PassengersMicroservice.Core.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\bin\Debug\net8.0\PassengersMicroservice.Core.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\obj\Debug\net8.0\PassengersMicroservice.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\obj\Debug\net8.0\PassengersMicroservice.Core.AssemblyInfoInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\obj\Debug\net8.0\PassengersMicroservice.Core.AssemblyInfo.cs
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\obj\Debug\net8.0\PassengersMicroservice.Core.csproj.CoreCompileInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\obj\Debug\net8.0\PassengersMicroservice.Core.sourcelink.json
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\obj\Debug\net8.0\PassengersMicroservice.Core.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\obj\Debug\net8.0\refint\PassengersMicroservice.Core.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\obj\Debug\net8.0\PassengersMicroservice.Core.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\PassengersMicroservice.Web\PassengersMicroservice.Core\obj\Debug\net8.0\ref\PassengersMicroservice.Core.dll

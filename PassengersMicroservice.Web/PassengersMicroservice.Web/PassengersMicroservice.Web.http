@@ -1,0 +1,6 @@
+@PassengersMicroservice.Web_HostAddress = http://localhost:5162
+
+GET {{PassengersMicroservice.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

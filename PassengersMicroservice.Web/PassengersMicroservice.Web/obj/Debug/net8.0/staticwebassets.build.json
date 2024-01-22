@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KaN8bUoLF+cLG8pUQfQUh8nb2lPTGU6hAnh2aQ6XbnU=",
+  "Source": "PassengersMicroservice.Web",
+  "BasePath": "_content/PassengersMicroservice.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
