@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PassengersMicroservice.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe618abb4317bac6fa6885e8c756825305e02000")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f56041051d023aa442272fa4caf392ae2aac1f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("PassengersMicroservice.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PassengersMicroservice.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
