@@ -201,6 +201,91 @@
         }
       }
     },
+    "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.Tests\\PassengersMicroservice.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.Tests\\PassengersMicroservice.Tests.csproj",
+        "projectName": "PassengersMicroservice.Tests",
+        "projectPath": "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.Tests\\PassengersMicroservice.Tests.csproj",
+        "packagesPath": "C:\\Users\\Paquito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Paquito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.Core\\PassengersMicroservice.Core.csproj": {
+                "projectPath": "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.Core\\PassengersMicroservice.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.Web\\PassengersMicroservice.Web.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -230,6 +315,9 @@
               },
               "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.DataAccess\\PassengersMicroservice.DataAccess.csproj": {
                 "projectPath": "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.DataAccess\\PassengersMicroservice.DataAccess.csproj"
+              },
+              "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.Tests\\PassengersMicroservice.Tests.csproj": {
+                "projectPath": "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\PassengersMicroservice.Web\\PassengersMicroservice.Tests\\PassengersMicroservice.Tests.csproj"
               }
             }
           }
@@ -251,6 +339,18 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.19.6, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.MySql": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
