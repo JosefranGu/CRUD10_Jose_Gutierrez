@@ -1,0 +1,6 @@
+@TicketMicroservice.Web_HostAddress = http://localhost:5213
+
+GET {{TicketMicroservice.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
