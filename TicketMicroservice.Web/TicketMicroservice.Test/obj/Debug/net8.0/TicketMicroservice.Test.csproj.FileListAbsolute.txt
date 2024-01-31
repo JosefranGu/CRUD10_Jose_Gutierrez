@@ -1,0 +1,7 @@
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_TicketMicroservice.Test
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.Test\obj\Debug\net8.0\TicketMicroservice.Test.csproj.AssemblyReference.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.Test\obj\Debug\net8.0\TicketMicroservice.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.Test\obj\Debug\net8.0\TicketMicroservice.Test.AssemblyInfoInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.Test\obj\Debug\net8.0\TicketMicroservice.Test.AssemblyInfo.cs
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.Test\obj\Debug\net8.0\TicketMicroservice.Test.csproj.CoreCompileInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.Test\obj\Debug\net8.0\TicketMicroservice.Test.sourcelink.json

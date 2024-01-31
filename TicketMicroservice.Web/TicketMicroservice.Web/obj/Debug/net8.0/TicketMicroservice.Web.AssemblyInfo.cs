@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicketMicroservice.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b12005efe10c61f22baec0739607e8420609641")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bfe890e9984ba4bd493b618b9125bab29779181")]
 [assembly: System.Reflection.AssemblyProductAttribute("TicketMicroservice.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TicketMicroservice.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,68 +1,63 @@
-using Microsoft.OpenApi.Models;
-using Serilog;
-using System.Text;
+using Microsoft.EntityFrameworkCore;
 using TicketMicroservice.DataAccess;
+using TicketMicroservice.ApplicationServices;
+using TicketMicroservice.Test;
+using Serilog;
+using Microsoft.OpenApi.Models;
 
-internal class Program
+var builder = WebApplication.CreateBuilder(args);
+
+// Obtener la configuración a través de la inyección de dependencias
+var configuration = builder.Configuration;
+
+// Add services to the container.
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(c =>
 {
-    private static void Main(string[] args)
-    {
-        var builder = WebApplication.CreateBuilder(args);
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Tickets API", Version = "v1" });
+});
 
-        // Add services to the container.
-        var key = Encoding.ASCII.GetBytes("tu_clave_secreta_para_firmar_el_token");
-
-        builder.Services.AddAuthentication(auth =>
-        {
-            auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-            auth.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-        }).AddJwtBearer(jwt =>
-        {
-            jwt.RequireHttpsMetadata = false;
-            jwt.SaveToken = true;
-            jwt.TokenValidationParameters = new TokenValidationParameters
-            {
-                ValidateIssuerSigningKey = true,
-                IssuerSigningKey = new SymmetricSecurityKey(key),
-                ValidateIssuer = false,
-                ValidateAudience = false
-            };
-        });
-
-        Log.Logger = new LoggerConfiguration().WriteTo.MySQL(connectionString).CreateLogger();
-
-        builder.Services.AddLogging(loggingBuilder =>loggingBuilder.AddSerilog());
-
-        builder.Services.AddDbContext<TicketDbContext>(options =>options.UseInMemoryDatabase("TestDb"));
+// Configure method
 
 
-        builder.Services.AddControllers();
-        // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-        builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddSwaggerGen();
-        builder.Services.AddSwaggerGen(c =>
-        {
-            c.SwaggerDoc("v1", new OpenApiInfo { Title = "Tickets API", Version = "v1" });
-        });
 
-        var app = builder.Build();
+// Registrar AutoMapper
+builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
-        // Configure the HTTP request pipeline.
-        if (app.Environment.IsDevelopment())
-        {
-            app.UseSwagger();
-            app.UseSwaggerUI(c =>
-            {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Tickets API V1");
-            });
-        }
+builder.Services.AddDbContext<TicketDbContext>(options =>
+    options.UseSqlServer(configuration.GetConnectionString("TicketDatabase")));
 
-        app.UseHttpsRedirection();
+builder.Services.AddDbContext<TicketDbContextInMemory>(options =>
+        options.UseInMemoryDatabase("TicketInMemoryDatabase"));
 
-        app.UseAuthorization();
 
-        app.MapControllers();
+Log.Logger = new LoggerConfiguration()
+      .WriteTo.MySQL("YourMySqlConnectionHere") // Ajusta la cadena de conexión MySQL
+      .CreateLogger();
 
-        app.Run();
-    }
+builder.Services.AddLogging(loggingBuilder => loggingBuilder.AddSerilog());
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
+app.UseSwagger();
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ticket API V1");
+});
+
+app.UseHttpsRedirection();
+
+app.UseAuthorization();
+
+app.MapControllers();
+
+app.Run();

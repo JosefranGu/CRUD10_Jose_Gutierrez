@@ -18,9 +18,4 @@
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\TicketMicroservice.DataAccess\TicketMicroservice.DataAccess.csproj" />
-    <ProjectReference Include="..\TicketMicroservice.Web\TicketMicroservice.Web.csproj" />
-  </ItemGroup>
-
 </Project>

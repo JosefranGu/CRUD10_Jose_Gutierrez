@@ -18,7 +18,7 @@ namespace TicketMicroservice.Test
             var mockRepository = new Mock<ITicketRepository>();
             var mockChecker = new Mock<Checker>();
             var ticketService = new TicketApplicationService(mockRepository.Object, mockChecker.Object);
-            var validTicketDTO = new TicketDTO { /* Populate with valid data */ };
+            var validTicketDTO = new Ticket{ /* Populate with valid data */ };
 
             // Act
             ticketService.Insert(validTicketDTO);

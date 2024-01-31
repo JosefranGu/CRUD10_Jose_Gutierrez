@@ -1,0 +1,16 @@
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\bin\Debug\net8.0\TicketMicroservice.DataAccess.deps.json
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\bin\Debug\net8.0\TicketMicroservice.DataAccess.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\bin\Debug\net8.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\bin\Debug\net8.0\TicketMicroservice.Core.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\bin\Debug\net8.0\TicketMicroservice.Core.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\TicketMicroservice.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\TicketMicroservice.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\TicketMicroservice.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\TicketMicroservice.DataAccess.AssemblyInfo.cs
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\TicketMicroservice.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\TicketMicroservice.DataAccess.sourcelink.json
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\TicketMicroservice.DataAccess.csproj.CopyComplete
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\TicketMicroservice.DataAccess.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\refint\TicketMicroservice.DataAccess.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.DataAccess\obj\Debug\net8.0\ref\TicketMicroservice.DataAccess.dll

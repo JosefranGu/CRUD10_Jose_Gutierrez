@@ -16,9 +16,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\TicketMicroservice.ApplicationServices\TicketMicroservice.ApplicationServices.csproj" />
-    <ProjectReference Include="..\TicketMicroservice.Core\TicketMicroservice.Core.csproj" />
-  </ItemGroup>
-
 </Project>

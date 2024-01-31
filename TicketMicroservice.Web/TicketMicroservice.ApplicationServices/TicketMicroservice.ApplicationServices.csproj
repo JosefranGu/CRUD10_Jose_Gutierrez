@@ -10,9 +10,4 @@
     <PackageReference Include="AutoMapper" Version="12.0.1" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\TicketMicroservice.Core\TicketMicroservice.Core.csproj" />
-    <ProjectReference Include="..\TicketMicroservice.DataAccess\TicketMicroservice.DataAccess.csproj" />
-  </ItemGroup>
-
 </Project>

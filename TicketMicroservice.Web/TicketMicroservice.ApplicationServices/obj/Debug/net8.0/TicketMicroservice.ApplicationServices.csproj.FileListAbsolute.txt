@@ -1,0 +1,6 @@
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.csproj.AssemblyReference.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.AssemblyInfoInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.AssemblyInfo.cs
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.csproj.CoreCompileInputs.cache
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.sourcelink.json
