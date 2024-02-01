@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PassengersMicroservice.Tests
+namespace TicketMicroservice.Test
 {
     public class TicketDbContextInMemory : DbContext
     {
@@ -15,7 +15,7 @@ namespace PassengersMicroservice.Tests
         {
         }
 
-        public DbSet<Ticket> Passengers { get; set; }
+        public DbSet<Ticket> Tickets { get; set; }
         // Añadir otras DbSet según sea necesario para tus pruebas
     }
 

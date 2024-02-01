@@ -1,9 +1,19 @@
 using Microsoft.EntityFrameworkCore;
 using TicketMicroservice.DataAccess;
 using TicketMicroservice.ApplicationServices;
-using TicketMicroservice.Test;
 using Serilog;
+using Serilog.Sinks.MySQL;
+using Serilog.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using TicketMicroservice.Test;
+using Microsoft.EntityFrameworkCore.SqlServer;
+using AutoMapper;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using TicketMicroservice.Web;
+using TicketMicroservice.DataAccess.Config;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,23 +30,41 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Tickets API", Version = "v1" });
 });
 
-// Configure method
+// Add Jwt Token Validation
+builder.Services.Configure<JwtTokenValidationSettings>(builder.Configuration.GetSection("JwtTokenValidationSettings"));
 
+var tokenValidationSettings = builder.Configuration.GetSection("JwtTokenValidationSettings").Get<JwtTokenValidationSettings>();
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.RequireHttpsMetadata = false;
+        options.SaveToken = true;
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidIssuer = tokenValidationSettings.ValidIssuer,
+            ValidateAudience = true,
+            ValidAudience = tokenValidationSettings.ValidAudience,
+            ValidateLifetime = true,
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(tokenValidationSettings.SecretKey)),
+            ValidateIssuerSigningKey = true,
+        };
+    });
 
-
-// Registrar AutoMapper
+// Configurar AutoMapper
 builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
+// Configurar DbContext
 builder.Services.AddDbContext<TicketDbContext>(options =>
     options.UseSqlServer(configuration.GetConnectionString("TicketDatabase")));
 
 builder.Services.AddDbContext<TicketDbContextInMemory>(options =>
-        options.UseInMemoryDatabase("TicketInMemoryDatabase"));
+    options.UseInMemoryDatabase("TicketInMemoryDatabase"));
 
-
+// Configurar Serilog con el sink MySQL
 Log.Logger = new LoggerConfiguration()
-      .WriteTo.MySQL("YourMySqlConnectionHere") // Ajusta la cadena de conexión MySQL
-      .CreateLogger();
+    .WriteTo.MySQL("YourMySqlConnectionHere") // Ajusta la cadena de conexión MySQL
+    .CreateLogger();
 
 builder.Services.AddLogging(loggingBuilder => loggingBuilder.AddSerilog());
 
@@ -48,16 +76,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseSwagger();
-app.UseSwaggerUI(c =>
-{
-    c.SwaggerEndpoint("/swagger/v1/swagger.json", "Ticket API V1");
-});
-
+app.InitDb();
 app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
+app.UseAuthorization(); // Solo necesitas una llamada a UseAuthorization()
 app.MapControllers();
-
 app.Run();

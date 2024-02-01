@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TicketMicroservice.ApplicationServices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bfe890e9984ba4bd493b618b9125bab29779181")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9338cb1f4c4e767a16a423a4bb130a9f0ed141e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TicketMicroservice.ApplicationServices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TicketMicroservice.ApplicationServices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

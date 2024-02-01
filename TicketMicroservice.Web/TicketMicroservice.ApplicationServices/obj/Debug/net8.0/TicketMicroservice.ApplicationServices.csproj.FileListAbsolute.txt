@@ -4,3 +4,15 @@ C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\T
 C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.AssemblyInfo.cs
 C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.csproj.CoreCompileInputs.cache
 C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.sourcelink.json
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\bin\Debug\net8.0\TicketMicroservice.ApplicationServices.deps.json
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\bin\Debug\net8.0\TicketMicroservice.ApplicationServices.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\bin\Debug\net8.0\TicketMicroservice.ApplicationServices.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\bin\Debug\net8.0\TicketMicroservice.Core.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\bin\Debug\net8.0\TicketMicroservice.DataAccess.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\bin\Debug\net8.0\TicketMicroservice.DataAccess.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\bin\Debug\net8.0\TicketMicroservice.Core.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.csproj.CopyComplete
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\refint\TicketMicroservice.ApplicationServices.dll
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\TicketMicroservice.ApplicationServices.pdb
+C:\Users\Paquito\Documents\GitHub\CRUD10_Jose_Gutierrez\TicketMicroservice.Web\TicketMicroservice.ApplicationServices\obj\Debug\net8.0\ref\TicketMicroservice.ApplicationServices.dll

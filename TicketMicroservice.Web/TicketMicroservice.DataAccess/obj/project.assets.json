@@ -264,6 +264,16 @@
             "related": ".xml"
           }
         }
+      },
+      "TicketMicroservice.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TicketMicroservice.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TicketMicroservice.Core.dll": {}
+        }
       }
     }
   },
@@ -701,12 +711,18 @@
         "pomelo.entityframeworkcore.mysql.7.0.0.nupkg.sha512",
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
+    },
+    "TicketMicroservice.Core/1.0.0": {
+      "type": "project",
+      "path": "../TicketMicroservice.Core/TicketMicroservice.Core.csproj",
+      "msbuildProject": "../TicketMicroservice.Core/TicketMicroservice.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.EntityFrameworkCore >= 8.0.1",
-      "Pomelo.EntityFrameworkCore.MySql >= 7.0.0"
+      "Pomelo.EntityFrameworkCore.MySql >= 7.0.0",
+      "TicketMicroservice.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -735,7 +751,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\TicketMicroservice.Web\\TicketMicroservice.Core\\TicketMicroservice.Core.csproj": {
+              "projectPath": "C:\\Users\\Paquito\\Documents\\GitHub\\CRUD10_Jose_Gutierrez\\TicketMicroservice.Web\\TicketMicroservice.Core\\TicketMicroservice.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

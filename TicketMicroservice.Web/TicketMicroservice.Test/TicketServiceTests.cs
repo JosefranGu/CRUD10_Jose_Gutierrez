@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Moq;
+using NUnit.Framework;
+using System;
+using TicketMicroservice.ApplicationServices;
+using TicketMicroservice.Core;
 using TicketMicroservice.DataAccess;
-using TicketMicroservice.Web;
+
 
 namespace TicketMicroservice.Test
 {
@@ -16,12 +16,12 @@ namespace TicketMicroservice.Test
         {
             // Arrange
             var mockRepository = new Mock<ITicketRepository>();
-            var mockChecker = new Mock<Checker>();
-            var ticketService = new TicketApplicationService(mockRepository.Object, mockChecker.Object);
-            var validTicketDTO = new Ticket{ /* Populate with valid data */ };
+            var mockChecker = new Mock<IChecker>();
+            var ticketService = new TicketService(mockRepository.Object, mockChecker.Object);
+            var validTicketDTO = new Ticket { /* Populate with valid data */ };
 
             // Act
-            ticketService.Insert(validTicketDTO);
+            ticketService.InsertTicket(validTicketDTO);
 
             // Assert
             mockRepository.Verify(repo => repo.Insert(It.IsAny<Ticket>()), Times.Once);
